@@ -1,4 +1,4 @@
-# agent-stylesheet
+# agent-style-card
 
 The style card for Claude Code and the hooks that enforce it, shared between PCs.
 
@@ -20,14 +20,14 @@ company-specific out of it.
 Needs git and Node.js. From the folder where the clone should live, such as `~/wkspaces`:
 
 ```
-git clone https://github.com/lenniuhr/agent-stylesheet
-node agent-stylesheet/install.mjs
+git clone https://github.com/lenniuhr/agent-style-card
+node agent-style-card/install.mjs
 ```
 
 The install registers three hooks in `~/.claude/settings.json`: the card at session start, the
 reminder on every prompt, and the Next line check when a turn ends. It replaces any older hook that
 runs a `style-card.mjs` or `next-line.mjs`, wherever that file lives, keeps every other setting, and
-saves the previous file as `settings.json.bak-agent-stylesheet`. Running it twice changes nothing.
+saves the previous file as `settings.json.bak-agent-style-card`. Running it twice changes nothing.
 Run it again after moving the clone, because the hooks point at the clone's absolute path.
 
 Start a new Claude Code session afterwards. It works when the session's first prompt carries the

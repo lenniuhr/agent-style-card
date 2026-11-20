@@ -2,7 +2,7 @@
 // Run once per PC after cloning, and again after moving the clone: node install.mjs
 // It replaces every existing hook whose command runs a style-card.mjs or next-line.mjs, wherever that file
 // lives, so an older copy in ~/.claude/hooks stops running. All other settings and hooks stay as they are.
-// The previous settings are kept beside the file as settings.json.bak-agent-stylesheet.
+// The previous settings are kept beside the file as settings.json.bak-agent-style-card.
 import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { dirname, join } from 'node:path';
@@ -30,7 +30,7 @@ const wanted = {
 let settings = {};
 if (existsSync(settingsPath)) {
   settings = JSON.parse(readFileSync(settingsPath, 'utf8'));
-  copyFileSync(settingsPath, `${settingsPath}.bak-agent-stylesheet`);
+  copyFileSync(settingsPath, `${settingsPath}.bak-agent-style-card`);
 } else {
   mkdirSync(settingsDir, { recursive: true });
 }
