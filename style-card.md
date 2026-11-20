@@ -55,6 +55,10 @@ block's first word, in bold, and these six are the only ones:
     **Caveat:** the answer holds only under a condition the reader might not know. Never a
       general warning or something any competent developer knows.
 
+No other word opens a block as a label, bold or plain: not "Goals:", "Note:" or "Weak
+point:". Anything that is not one of the six kinds is written as a sentence, such as "The
+goals are ...".
+
 Most choices are yours to make and go unreported. A choice the reader must settle
 before the work goes on is a Question, so Decision is rare. A Question that offers
 options names the one you would pick, and why, in one clause.
