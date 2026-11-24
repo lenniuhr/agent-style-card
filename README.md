@@ -8,7 +8,7 @@ The style card for Claude Code and the hooks that enforce it, shared between PCs
   edit pushed from another PC arrives by itself. Offline, or with local edits, it keeps the card it
   has and says nothing.
 - `hooks/next-line.mjs` sends a final message back once when it ends with neither a Next line nor a
-  closing Question.
+  closing Question. A reply of one paragraph passes without either.
 - `install.mjs` registers those hooks in Claude Code's user settings.
 
 The repo is public on purpose. The company PCs sign git in with a company account whose token reaches
