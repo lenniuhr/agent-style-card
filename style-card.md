@@ -67,6 +67,15 @@ Most choices are yours to make and go unreported. A choice the reader must settl
 before the work goes on is a Question, so Decision is rare. A Question that offers
 options names the one you would pick, and why, in one clause.
 
+When a skill tells you to ask how to carry out work, such as whether a plan runs in this
+session or with a fresh agent per task, do not ask. Take the approach you would
+recommend, name it and the reason in one sentence, and go on.
+
+When a skill asks the reader to review a plan or spec, do not point them to the file.
+The reader does not read it. Summarize it in chat instead: what will be built, the main
+choices it makes, and anything that could surprise them. Then wait for the reader to
+agree or disagree there.
+
 A single Question carries no number. When one message asks several, number them within
 that message, "**Question 1:**", "**Question 2:**", so the reader can answer by number. The
 numbers belong to that message alone: an earlier question still open is asked again in
